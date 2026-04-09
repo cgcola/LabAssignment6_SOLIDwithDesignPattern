@@ -19,6 +19,7 @@ The original design suffered from tight coupling, making it difficult to maintai
 This refactoring strictly adheres to the following principles:
 
 **Dependency Inversion Principle (DIP):** The refactored code ensures that high-level modules do not depend on low-level modules, but both depend on abstractions. The `Student` class now depends on the `LibraryResource` interface instead of concrete classes like `Book` or `Journal`.
+
 **Open/Closed Principle (OCP):** The software entities are now open for extension but closed for modification. We successfully demonstrated this by adding an `AudioBook` resource class without needing to modify the `Student` class's source code.
 
 ## UML Diagram:
