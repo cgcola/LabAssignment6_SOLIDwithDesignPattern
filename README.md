@@ -23,3 +23,4 @@ This refactoring strictly adheres to the following principles:
 **Open/Closed Principle (OCP):** The software entities are now open for extension but closed for modification. We successfully demonstrated this by adding an `AudioBook` resource class without needing to modify the `Student` class's source code.
 
 ## UML Diagram:
+<img width="2670" height="1956" alt="image" src="https://github.com/user-attachments/assets/73c181a3-d2df-4a89-bcfb-187fd101dc09" />
